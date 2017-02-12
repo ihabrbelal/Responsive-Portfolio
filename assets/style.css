@@ -1,0 +1,329 @@
+*{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.3em;
+	letter-spacing: 1.2px;
+	color:#777777;
+	margin-left:0px;
+
+}
+
+body{
+	background-image: url("../images/concrete_seamless.png");
+	margin-right:0px;
+	margin-top:0px;
+}
+
+.content1{
+	clear:both;
+	float:left;
+	background-color: white;
+	border:1.5px solid #dddddd;
+	margin:50px 30px 0px 100px;
+	width:700px;
+	height: all;
+	padding:1em;
+}
+
+.content2{
+	position: relative;
+	float:left;
+	background-color: white;
+	border:1.5px solid #dddddd;
+	margin-top:50px;
+	width:210px;
+	height: all;
+	padding:2em;
+}
+
+div.center{
+	text-align: center;
+}
+
+header{
+	font-family:"Georgia", Times, new roman, serif;
+	background-color:#ffffff;
+	border-bottom: 3px solid #cccccc;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	height:70px;
+
+}
+
+h1{
+	font-family:"Georgia", Times, times new roman, serif;
+	background-color: #40aaa5;
+	padding:19.5px;
+	margin-top:0px;
+	margin-left:100px;
+	float:left;
+	color: #ffffff;
+	width:150px;
+	font-size:24px;
+}
+h2{
+	font-family:"Georgia", Times, times new roman, serif;
+	color: #40aaa5;
+	padding: 7px;
+	/*width:100%; */
+	margin-left:40px;
+	font-size:20px;
+	border-bottom:2px solid #cccccc;
+}
+
+h3{
+	font-family:"Georgia", Times, times new roman, serif;
+	color: #40aaa5;
+	/*padding: 5px; */
+	width:100%;
+	/* margin-left:10px; */
+	font-size:16px;
+	border-bottom:2px solid #cccccc;
+}
+h6{
+	font-size:12px;
+	text-align: center;
+	color:#ffffff;
+	position:relative;
+	margin:15px;
+}
+
+.myimg{
+	float:left;
+	margin:0px 15px 0px 15px;
+	margin-left:15px;
+	margin:right:50px;
+}
+*/
+
+p{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+img.icon{
+	width:50px;
+	height:50px;
+	float:left;
+	margin:10px;
+}
+
+.gallery{
+	margin:20px;
+	float:left;
+}
+
+div.img {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 300px;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    background-color: #40aaa5;
+    color:white;
+}
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    position:absolute;
+    margin-top:18px;
+    margin-left:700px;
+    padding: 10;
+}
+
+/* style for form division*/
+div.form{
+	width:500px;
+	margin-top:50px;
+}
+
+div.form form{
+	margin:30px;
+	height:auto;
+}
+
+}
+#textbox{
+	display:block;
+	overflow-wrap: auto;
+	margin:10px;
+	text-align:left;
+	color:blue;
+}
+
+/* style to customize sumbmit button - contact page */
+.submit{
+	background-color:#40aaa5;
+	width:100px;
+	padding:5px;
+	color:white;
+	margin-top:10px;
+}
+/* Float the list items side by side */
+
+ul.topnav li {float:right;
+/* border-left:1px solid white; */
+}
+
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #777777;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 12px; 	
+ }
+ 
+
+/* Change background color and font size of links on hover */
+ul.topnav li a:hover {
+	font-size:110%;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+footer{
+	clear:both;
+	float:left;
+	margin-bottom:0px;
+	margin-top:20px;
+	width:100%;
+	height:30px;
+	background-color:#666666;
+	border-top:4px solid #40aaa5;
+	padding:10px;
+}
+
+/*Start of responsive web part*/
+
+
+/* Width at 980px and below (laptop)*/
+@media screen and (max-width: 980px){
+   
+.content1, .content2{
+	/*clear:both;*/
+    float:left;
+	background-color: white;
+	border:1.5px solid #dddddd;
+	margin:10px;
+	/*width:100%;*/
+	height: all;
+	padding:20px;
+}
+.content1{
+	width:500px;
+}
+.content2.{
+	width:500;
+}
+
+ul.topnav {
+    list-style-type: none;
+    position:relative;
+    float:left;
+    width:auto;
+    margin-top:18px;
+    margin-left:20px;
+    padding: 10;
+}
+div.form{
+	width:auto;
+	margin:5px;
+}
+
+
+ 
+}
+
+
+
+
+/* Width at 768px and below (tablet)*/
+@media screen and (max-width: 768px){
+   
+.content1, .content2{
+	clear:both;
+    float:left;
+	background-color: white;
+	border:1.5px solid #dddddd;
+	margin:10px auto;
+	width:100%;
+	height: all;
+	padding:20px;
+}
+/*.content1{
+	width:500px;
+}
+.content2.{
+	width:500;
+}
+*/
+ul.topnav {
+    list-style-type: none;
+    position:relative;
+    float:left;
+    width:auto;
+    margin-top:18px;
+    margin-left:20px;
+    padding: 10;
+}
+div.form{
+	width:auto;
+	margin:5px;
+}
+
+
+ 
+}
+
+/* Width at 640px and below (Phone)*/
+@media screen and (max-width: 640px){
+   
+.content1, .content2{
+	clear:both;
+        float:left;
+	background-color: white;
+	border:1.5px solid #dddddd;
+	margin:10px;
+	width:100%;
+	height: all;
+	padding:20px;
+}
+
+ul.topnav {
+    list-style-type: none;
+    position:relative;
+    float:left;
+    width:100%;
+    margin-top:18px;
+    margin-left:20px;
+    padding: 10;
+}
+div.form{
+	width:50%;
+	margin:5px;
+}
+.header{
+	position:static;
+}
+ 
+}
